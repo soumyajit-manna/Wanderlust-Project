@@ -1,167 +1,152 @@
 body {
-    font-family: "Plus Jakarta Sans", sans-serif !important;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .container{
-    flex:1;
+  flex:1;
 }
-
 
 /*  Navbar */
 .navbar{
-    height: 5rem;
-    background-color: white;
+  height: 5rem;
+  background-color: white;
 }
 .fa-compass{
-    color: #fe424d;
-    font-size: 2rem;
+  color: #fe424d;
+  font-size: 2rem;
 }
 .nav-link{
-    color:#222222 !important;
+  color:#222222 !important;
 }
 
 /* Footer */
 .f-info-links a {
-    text-decoration: none;
-    color: #222222;
+  text-decoration: none;
+  color: #222222;
 }
 .f-info-links a:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .f-info-links, .f-info-socials, .f-info-brand{
-   width: 100%;
-   display:flex;
-   align-items: center;
-   justify-content: center;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 .f-info-socials i{
-    margin-right: 1rem;
-    font-size: 1.2rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
 }
 .f-info{
-    text-align: center;
-    height: 8rem;
-    display:flex;
-    background-color: #ebebeb;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-evenly;
+  text-align: center;
+  height: 8rem;
+  display:flex;
+  background-color: #ebebeb;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
 
 }
 /* cards */
 .listing-card{
-    border: none !important;
-    margin-bottom: 2rem;
+  border: none !important;
+  margin-bottom: 2rem;
 }
 .card-img-top{
-    border-radius: 1rem !important;
-    width: 100% !important;
-    object-fit: cover !important;
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
 }
 .card-body{
-    padding: 0 !important;
+  padding: 0 !important;
 }
 .card-text p{
-    font-weight: 400;
+  font-weight: 400;
 
 }
 .listing-link{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Card effect */
 .card-img-overlay{
-    opacity:0;
+  opacity:0;
 }
 .card-img-overlay:hover{
-    opacity:0.2;
-    background-color: white;
+  opacity:0.2;
+  background-color: white;
 }
 
 /* New Page */
 .add-btn{
-   background-color:#fe424d !important;
-   border: none !important;
+  background-color:#fe424d !important;
+  border: none !important;
 }
 
 /* Edit Page */
 .edit-btn{
-    background-color:#fe424d !important;
-   border: none !important;
+  background-color:#fe424d !important;
+  border: none !important;
 }
 
 /* Show Page */
 .show-img{
-    height: 30vh !important;
+  height: 30vh !important;
 }
 .btns{
-    display:flex;
+  display:flex;
 }
 
 .show-card{
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Map */
 #map { 
-    height:400px;
-    width: 80vh; 
-}
-
-
-
+  height:400px;
+  width: 80vh; 
+  }
 
 /* Media Query */
-/* Add this to your CSS file */
 
-/* Make the filters and tax toggle responsive */
 #filters {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* Center the filters horizontally */
 }
-
 .filter {
   margin: 0.5rem;
 }
-
 .tax-toggle {
   margin: 0.5rem;
 }
-
-/* Large screens: show all icons and checkboxes in one line */
 @media only screen and (min-width: 1200px) {
   #filters {
-    flex-wrap: nowrap; /* Don't wrap icons to new line on large screens */
+    flex-wrap: nowrap; 
   }
  .filter {
-    margin: 0.2rem; /* Reduce margin to fit all icons in one line */
+    margin: 0.2rem; 
   }
  .tax-toggle {
-    margin: 0.2rem; /* Reduce margin to fit all checkboxes in one line */
+    margin: 0.2rem; 
   }
 }
-
-/* Tablet screens: show icons and checkboxes in two lines */
 @media only screen and (max-width: 1199px) and (min-width: 768px) {
   #filters {
-    flex-wrap: wrap; /* Wrap icons to new line on tablet screens */
+    flex-wrap: wrap; 
   }
  .filter {
-    flex-basis: 25%; /* Make each filter take up 25% of the width on tablet screens */
+    flex-basis: 25%; 
   }
 }
-
-/* Mobile phones and smaller screens: show icons and checkboxes in three lines */
 @media only screen and (max-width: 767px) {
   #filters {
     flex-wrap: wrap; /* Wrap icons to new line on mobile screens */
   }
  .filter {
-    flex-basis: 33.33%; /* Make each filter take up 33.33% of the width on mobile screens */
+    flex-basis: 33.33%; 
   }
 }
-
