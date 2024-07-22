@@ -115,7 +115,7 @@ body {
 #filters {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center the filters horizontally */
+  justify-content: center; 
 }
 .filter {
   margin: 0.5rem;
@@ -144,7 +144,7 @@ body {
 }
 @media only screen and (max-width: 767px) {
   #filters {
-    flex-wrap: wrap; /* Wrap icons to new line on mobile screens */
+    flex-wrap: wrap; 
   }
  .filter {
     flex-basis: 33.33%; 
