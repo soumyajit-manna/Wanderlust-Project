@@ -15,6 +15,8 @@ Wanderlust is a web application that allows users to explore and review various 
 - Node.js, Express
 - MongoDB
 - Passport.js for authentication
+- Mapbox for map visualization
+
 
 ## Installation
 1. Clone the repository:
